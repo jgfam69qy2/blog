@@ -1,6 +1,6 @@
 ---
-layout = default
-title = About Page
+layout: default
+title: About Page
 permalink: /about/
 ---
 
