@@ -1,4 +1,6 @@
 ---
+title: Progress so far.
+layout: post
 ---
 
 I wanted to write about something, so might as well start talking about what I want to achieve here.
