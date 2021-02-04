@@ -138,3 +138,13 @@ Hopefully this is visible. one commit coming up.
 OK all three methods work "OK". the size is a bit too big tho, since it's using the width of the collumn, and the style of post pages has only one. let's see if I can shrink them by tweaking the invocation. or by trying out gallery:
 
 {% include gallery caption="This is a sample gallery with **Markdown support**." %}
+
+Sidenote. this only works well if you have more than one photo in it, because it becomse interactive and allows you to zoom in. 
+
+
+<figure>
+  <img src="/assets/images/flex_solder_fix_kcp5x5mxz2.jpg" 
+  alt="Sample image."
+  style="max-width:300px;">
+  <figcaption>This is an replacement wire added to a damaged flex.</figcaption>
+</figure>
