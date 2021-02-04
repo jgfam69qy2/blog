@@ -145,7 +145,7 @@ Sidenote. this helper only works well if you have more than one photo in it, but
 <figure>
   <img src="/assets/images/flex_solder_fix_kcp5x5mxz2.jpg" 
   alt="Sample image."
-  width= "300"/>
+  width="300"/>
   <figcaption>This is an replacement wire added to a damaged flex.</figcaption>
 </figure>
 
