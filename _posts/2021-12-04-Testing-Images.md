@@ -82,11 +82,12 @@ The file name is already unique and informative, so I'll commit it. let's skip t
 
 ## Invocation
 
-one example for invocation (adapted) referenced in the minimal mistakes docs.
+one example for invocation (adapted) referenced in the
+[minimal mistakes docs](https://mmistakes.github.io/minimal-mistakes/docs/helpers/).
 
 ``` html
 <figure>
-  <img src="/assets/images/flex_solder_fix_kcp5x5mxz2.jpg" alt="Sample image.">
+  <img src="/assets/images/flex_solder_fix_kcp5x5mxz2.jpg" alt="A Photo!">
   <figcaption>This is an replacement wire added to a damaged flex.</figcaption>
 </figure>
 ```
@@ -97,7 +98,7 @@ let's try it!
   <figcaption>This is an replacement wire added to a damaged flex.</figcaption>
 </figure>
 
-Let's go with the methods suggested in Jekyll's docs.
+Let's go with the methods suggested in [Jekyll's docs](https://aksakalli.github.io/jekyll-doc-theme/docs/cheatsheet/#images).
 
 ```
 Inline-style:
@@ -118,3 +119,13 @@ Reference-style:
 [logo]: /assets/images/flex_solder_fix_kcp5x5mxz2.jpg "This is an replacement wire added to a damaged flex."
 
 Hopefully this is visible. one commit coming up.
+
+---
+
+OK all three methods work "OK". the size is a bit too big tho, since it's using the width of the collumn, and the style of post pages has only one. let's see if I can shrink them by tweaking the invocation. or by trying out gallery:
+
+gallery:
+  - url: /assets/images/flex_solder_fix_kcp5x5mxz2.jpg
+    image_path: /assets/images/flex_solder_fix_kcp5x5mxz2.jpg
+    alt: "This is an replacement wire added to a damaged flex."
+    title: "A Photo!"
