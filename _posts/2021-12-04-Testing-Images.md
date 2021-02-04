@@ -139,13 +139,13 @@ OK all three methods work "OK". the size is a bit too big tho, since it's using 
 
 {% include gallery caption="This is a sample gallery with **Markdown support**." %}
 
-Sidenote. this only works well if you have more than one photo in it, because it becomse interactive and allows you to zoom in. 
+Sidenote. this helper only works well if you have more than one photo in it, but it becomes interactive and allows you to zoom in. 
 
 
 <figure>
   <img src="/assets/images/flex_solder_fix_kcp5x5mxz2.jpg" 
   alt="Sample image."
-  width= "300">
+  width= "300"/>
   <figcaption>This is an replacement wire added to a damaged flex.</figcaption>
 </figure>
 
