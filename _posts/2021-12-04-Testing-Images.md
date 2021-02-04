@@ -214,3 +214,6 @@ and thus limit it's width, but that messes up the figure caption and places it o
 Sidenote on style format. remove the caption.
 
 
+The figure class=half block seems to be the most functional, since it's also kinda adaptive and looks ok on a mobile.
+
+This whole post looks like mess now. but since the image exists only once, I'll keep it as a demo/test.
