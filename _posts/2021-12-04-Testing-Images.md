@@ -6,6 +6,14 @@ gallery:
     image_path: /assets/images/flex_solder_fix_kcp5x5mxz2.jpg
     alt: "This is an replacement wire added to a damaged flex."
     title: "A Photo!"
+  - url: /assets/images/flex_solder_fix_kcp5x5mxz2.jpg
+    image_path: /assets/images/flex_solder_fix_kcp5x5mxz2.jpg
+    alt: "This is an replacement wire added to a damaged flex."
+    title: "A Photo!"
+  - url: /assets/images/flex_solder_fix_kcp5x5mxz2.jpg
+    image_path: /assets/images/flex_solder_fix_kcp5x5mxz2.jpg
+    alt: "This is an replacement wire added to a damaged flex."
+    title: "A Photo!"
 ---
 
 # Trying out some includes
