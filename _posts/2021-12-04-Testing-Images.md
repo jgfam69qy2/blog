@@ -1,6 +1,11 @@
 ---
 title: Testing images.
 layout: post
+gallery:
+  - url: /assets/images/flex_solder_fix_kcp5x5mxz2.jpg
+    image_path: /assets/images/flex_solder_fix_kcp5x5mxz2.jpg
+    alt: "This is an replacement wire added to a damaged flex."
+    title: "A Photo!"
 ---
 
 # Trying out some includes
@@ -124,8 +129,4 @@ Hopefully this is visible. one commit coming up.
 
 OK all three methods work "OK". the size is a bit too big tho, since it's using the width of the collumn, and the style of post pages has only one. let's see if I can shrink them by tweaking the invocation. or by trying out gallery:
 
-gallery:
-  - url: /assets/images/flex_solder_fix_kcp5x5mxz2.jpg
-    image_path: /assets/images/flex_solder_fix_kcp5x5mxz2.jpg
-    alt: "This is an replacement wire added to a damaged flex."
-    title: "A Photo!"
+{% include gallery caption="This is a sample gallery with **Markdown support**." %}
