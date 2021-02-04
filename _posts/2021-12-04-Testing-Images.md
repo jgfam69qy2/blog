@@ -150,6 +150,11 @@ gallery:
  and invoking it via the helper.
 
 ``` html
+\{\% include gallery caption="This is a sample gallery with **Markdown support**." \%\}
+```
+
+which transforms it into something like this
+``` html
 {% include gallery caption="This is a sample gallery with **Markdown support**." %}
 ```
 
