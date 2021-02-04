@@ -164,6 +164,25 @@ Should look like this:
 
 Sidenote on galleries. this helper only works well if you have more than one photo in it, but it becomes interactive and allows you to zoom in. 
 
+
+The helper's html code gave me an idea tho.
+
+``` html
+<figure class="half ">
+  
+    
+      <a href="/assets/images/flex_solder_fix_kcp5x5mxz2.jpg"
+        title="A Photo!">
+          <img src="/assets/images/flex_solder_fix_kcp5x5mxz2.jpg"
+               alt="This is an replacement wire added to a damaged flex.">
+      </a>
+      
+    <figcaption>This is a sample gallery with <strong>Markdown support</strong>.
+	</figcaption>
+</figure>
+```
+
+
 You can alteratively load the image with a custom style:
 
 ``` html
