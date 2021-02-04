@@ -10,10 +10,6 @@ gallery:
     image_path: /assets/images/flex_solder_fix_kcp5x5mxz2.jpg
     alt: "This is an replacement wire added to a damaged flex."
     title: "A Photo!"
-  - url: /assets/images/flex_solder_fix_kcp5x5mxz2.jpg
-    image_path: /assets/images/flex_solder_fix_kcp5x5mxz2.jpg
-    alt: "This is an replacement wire added to a damaged flex."
-    title: "A Photo!"
 ---
 
 # Trying out some includes
@@ -137,22 +133,51 @@ Hopefully this is visible. one commit coming up.
 
 OK all three methods work "OK". the size is a bit too big tho, since it's using the width of the collumn, and the style of post pages has only one. let's see if I can shrink them by tweaking the invocation. or by trying out gallery:
 
+This works by adding an array to the frontmatter:
+
+``` yaml
+gallery:
+  - url: /assets/images/flex_solder_fix_kcp5x5mxz2.jpg
+    image_path: /assets/images/flex_solder_fix_kcp5x5mxz2.jpg
+    alt: "This is an replacement wire added to a damaged flex."
+    title: "A Photo!"
+  - url: /assets/images/flex_solder_fix_kcp5x5mxz2.jpg
+    image_path: /assets/images/flex_solder_fix_kcp5x5mxz2.jpg
+    alt: "This is an replacement wire added to a damaged flex."
+    title: "A Photo!"
+```
+
+ and invoking it via the helper.
+
+``` html
+{% include gallery caption="This is a sample gallery with **Markdown support**." %}
+```
+
+Should look like this:
+
 {% include gallery caption="This is a sample gallery with **Markdown support**." %}
 
-Sidenote. this helper only works well if you have more than one photo in it, but it becomes interactive and allows you to zoom in. 
+Sidenote on galleries. this helper only works well if you have more than one photo in it, but it becomes interactive and allows you to zoom in. 
 
+You can alteratively load the image with a custom style:
 
-<figure>
-  <img src="/assets/images/flex_solder_fix_kcp5x5mxz2.jpg" 
-  alt="Sample image."
-  width="300"/>
-  <figcaption>This is an replacement wire added to a damaged flex.</figcaption>
-</figure>
-
-
+``` html
 <figure>
   <img src="/assets/images/flex_solder_fix_kcp5x5mxz2.jpg" 
   alt="Sample image."
   style="width:300px;"/>
   <figcaption>This is an replacement wire added to a damaged flex.</figcaption>
 </figure>
+```
+
+and thus limit it's width, but that messes up the figure caption and places it on top \(?\)
+<figure>
+  <img src="/assets/images/flex_solder_fix_kcp5x5mxz2.jpg" 
+  alt="Sample image."
+  style="width:300px;"/>
+  <figcaption>This is an replacement wire added to a damaged flex.</figcaption>
+</figure>
+
+Sidenote on style format. remove the caption.
+
+
