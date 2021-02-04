@@ -176,12 +176,21 @@ The helper's html code gave me an idea tho.
           <img src="/assets/images/flex_solder_fix_kcp5x5mxz2.jpg"
                alt="This is an replacement wire added to a damaged flex.">
       </a>
-      
+
     <figcaption>This is a sample gallery with <strong>Markdown support</strong>.
 	</figcaption>
 </figure>
 ```
 
+<figure class="half ">
+      <a href="/assets/images/flex_solder_fix_kcp5x5mxz2.jpg"
+        title="A Photo!">
+          <img src="/assets/images/flex_solder_fix_kcp5x5mxz2.jpg"
+               alt="This is an replacement wire added to a damaged flex.">
+      </a>
+    <figcaption>This is a sample gallery with <strong>Markdown support</strong>.
+	</figcaption>
+</figure>
 
 You can alteratively load the image with a custom style:
 
