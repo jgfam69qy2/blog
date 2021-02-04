@@ -148,3 +148,6 @@ Sidenote. this only works well if you have more than one photo in it, because it
   style="max-width:300px;">
   <figcaption>This is an replacement wire added to a damaged flex.</figcaption>
 </figure>
+
+Inline-style:
+![A Photo!](/assets/images/flex_solder_fix_kcp5x5mxz2.jpg =400x300 "This is an replacement wire added to a damaged flex.")
